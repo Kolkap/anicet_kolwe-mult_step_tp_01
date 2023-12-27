@@ -24,8 +24,8 @@
 }
 
 .badge-step2 {
-  background-color: rgb(200, 238, 195);
-  color: rgb(26, 24, 24);
+  background-color: transparent;
+  color: rgb(250, 245, 245);
   border: 1px solid white;
   border-radius: 50%;
   padding: 0.5em;
@@ -42,8 +42,8 @@
 }
 
 .badge-step4 {
-  background-color: transparent;
-  color: rgb(250, 245, 245);
+  background-color: rgb(200, 238, 195);
+  color: rgb(26, 24, 24);
   border: 1px solid white;
   border-radius: 50%;
   padding: 0.5em;
@@ -97,45 +97,20 @@
   top: 20%;
 }
 
-.bouton{
+.imageval{
   position: absolute;
-  top: 110%;
-  left: 83%;
+  top: 25%;
+  left: 50%;
 }
 
-.retour{
-  position: absolute;
-  top: 110%;
+.imageval h1{
+  margin-left: -50px;
+  margin-top: 30px;
+
 }
 
-.box {
-  background-color: white;
-  border: 1px solid rgb(212, 211, 211);
-  padding: 10px;
-  margin: 5px;
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  height: 170px;
-  width: 180px;  
-}
+.imageval p{
+  margin-left: -150px;
+  color: #555;
 
-.btradio{
-  background-color: rgb(234, 241, 233);
-  border: 1px solid rgb(234, 241, 233);
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  margin: 10px;
-  border-radius: 8px;
-  margin-top: -15px;
-  height: 40px;
-  width: 590px;  
-}
-
-.box h5{
-  position: absolute;
-  margin-top: 30%;
-}
-
-.box p{
-  position: absolute;
-  margin-top: 40%;
 }
