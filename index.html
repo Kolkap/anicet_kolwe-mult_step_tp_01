@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TP</title>
+       <!-- Inclusion des fichiers nécessaires-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style/style.css">
+    <script src="scripts/script.js" defer></script>
+
+</head>
+<body>
+    <!-- HEADER -->
+    <header>
+        
+    </header>
+
+    <!-- MAIN -->
+    <main>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 ">
+                    <div class="image-container">
+                        <img src="assets/images/bg-sidebar-desktop.svg" class="img-thumbnail" alt="Responsive image">
+                        <div class="overlay-text">
+                            <div class="step1">
+                                <span class="badge badge-secondary p-2 rounded-circle badge-step1">1</span>
+                                <span class="ml-2">STEP 1</span>
+                                <h4>YOUR INFO</h4>
+                            </div>
+                            <div class="step2">
+                                <span class="badge badge-secondary p-2 rounded-circle badge-step2">2</span>
+                                <span class="ml-2">STEP 2</span>
+                                <h4>SELECT PLAN</h4>
+                            </div>
+                            <div class="step3">
+                                <span class="badge badge-secondary p-2 rounded-circle badge-step3">3</span>
+                                <span class="ml-2">STEP 3</span>
+                                <h4>ADD-ONS</h4>
+                            </div>
+                            <div class="step4">
+                                <span class="badge badge-secondary p-2 rounded-circle badge-step4">4</span>
+                                <span class="ml-2">STEP 4</span>
+                                <h4>SUMMary</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                
+                
+                <div class="col-md-8">
+                    <div class="information">
+                        <div class="Personal"><h1>Personal Info</h1></div>
+                        <div id="passwordHelpBlock" class="form-text">
+                            Please provide your name, Email Address, and Phone Number
+                        </div><br><br>
+                        <form info>
+                            <div class="mb-3">
+                                <label for="exampleFormControlInput1" class="form-label">Name</label>
+                                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="e.g anicet kolwe">
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleFormControlInput2" class="form-label">Email Address</label>
+                                <input type="email" class="form-control" id="exampleFormControlInput2" placeholder="e.g anicetkolwe@gmail.com">
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleFormControlInput3" class="form-label">Phone Number</label>
+                                <input type="number" class="form-control" id="exampleFormControlInput3" placeholder="e.g +237 694 419 233">
+                            </div>
+                            <div class="bouton">
+                                <button type="button" class="btn btn-primary" onclick="redirectToNextStep()">Next Step</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        
+    </footer>
+
+</body>
+</html>
