@@ -2,9 +2,10 @@
 
 /* Conteneur parent pour l'image et le texte */
 .image-container {
-  position: relative;
   display: inline-block; /* Permet de limiter la largeur au contenu */
-  top: 70px;
+  top: 0px;
+  right: 80px;
+  width: 90%;
 }
 
 /* Style de l'image */
@@ -21,6 +22,9 @@
   border-radius: 50%;
   padding: 0.5em;
   font-size: 1em;
+  width: 35px; 
+  height: 35px;
+  margin-top: 40px;
 }
 
 .badge-step2 {
@@ -30,6 +34,9 @@
   border-radius: 50%;
   padding: 0.5em;
   font-size: 1em;
+  width: 35px; 
+  height: 35px;
+  margin-top: 40px;
 }
 
 .badge-step3 {
@@ -39,6 +46,9 @@
   border-radius: 50%;
   padding: 0.5em;
   font-size: 1em;
+  width: 35px; 
+  height: 35px;
+  margin-top: 40px;
 }
 
 .badge-step4 {
@@ -48,6 +58,9 @@
   border-radius: 50%;
   padding: 0.5em;
   font-size: 1em;
+  width: 35px; 
+  height: 35px;
+  margin-top: 40px;
 }
 
 /* Style du texte d'étape */
@@ -93,12 +106,16 @@
 }
 
 .information{
-  position: absolute;
-  top: 20%;
+  margin-top: 70px;
 }
 
 .bouton{
   position: absolute;
-  top: 108%;
-  left: 78%;
+  top: 90%;
+  left: 85%;
+}
+
+.btn-custom {
+  background-color: #001f3f; 
+  color: #ffffff; 
 }
