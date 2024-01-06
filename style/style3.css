@@ -1,18 +1,44 @@
-/* style.css */
+
+@font-face {
+  font-family: 'ubuntubold';
+  src: url('assets/fonts/webfontkit/ubuntu-bold-webfont.woff2') format('woff2'),
+       url('assets/fonts/webfontkit/ubuntu-bold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ubunturegular';
+  src: url('assets/fonts/webfontkit/ubuntu-regular-webfont.woff2') format('woff2'),
+       url('assets/fonts/webfontkit/ubuntu-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ubuntumedium';
+  src: url('assets/fonts/webfontkit/ubuntu-medium-webfont.woff2') format('woff2'),
+       url('assets/fonts/webfontkit/ubuntu-medium-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 
 /* Conteneur parent pour l'image et le texte */
 .image-container {
-  position: relative;
-  display: inline-block; /* Permet de limiter la largeur au contenu */
-  top: 70px;
+  margin-top: 0px;
+  margin-right: 90px;
+  width: 90%;
 }
 
 /* Style de l'image */
 .image-container img {
-  width: 85%; /* Pour occuper la largeur du conteneur parent */
-  height: auto; /* Pour maintenir le ratio d'aspect de l'image */
-  display: block; /* Pour résoudre le problème de l'espace réservé sous l'image */
-}
+    margin-top: 0px;
+    width: 100%; /* Pour occuper la largeur de la div parente */
+    height: 100%; /* Pour occuper la hauteur de la div parente */
+    object-fit: cover; /* Pour maintenir le ratio d'aspect de l'image et la faire occuper toute la div */
+    display: block; /* Pour résoudre le problème de l'espace réservé sous l'image */
+  }
 
 .badge-step1 {
   background-color: transparent;
@@ -21,6 +47,9 @@
   border-radius: 50%;
   padding: 0.5em;
   font-size: 1em;
+  width: 35px; 
+  height: 35px;
+  margin-top: 40px;
 }
 
 .badge-step2 {
@@ -30,6 +59,9 @@
   border-radius: 50%;
   padding: 0.5em;
   font-size: 1em;
+  width: 35px; 
+  height: 35px;
+  margin-top: 40px;
 }
 
 .badge-step3 {
@@ -39,6 +71,9 @@
   border-radius: 50%;
   padding: 0.5em;
   font-size: 1em;
+  width: 35px; 
+  height: 35px;
+  margin-top: 40px;
 }
 
 .badge-step4 {
@@ -48,21 +83,28 @@
   border-radius: 50%;
   padding: 0.5em;
   font-size: 1em;
-}
-
-/* Style du texte d'étape */
-.overlay-text h6 {
-  font-size: 16px;
-  margin-left: 35px;
+  width: 35px; 
+  height: 35px;
+  margin-top: 40px;
 }
 
 .ml-2{
-  color: #555;
+  color: #3d3d41;
+  font-family: 'ubunturegular';
+}
+
+.Personal{
+  font-family: 'ubuntubold';
+}
+
+.expli{
+  margin-left: 48px;
+  font-family: 'ubuntumedium';
 }
 
 .step1{
   position: absolute;
-  top: 10%;
+  top: 8%;
   left: 35%;
   transform: translate(-50%, -50%);
   color: white;
@@ -70,7 +112,7 @@
 
 .step2{
   position: absolute;
-  top: 25%;
+  top: 23%;
   left: 38%;
   transform: translate(-50%, -50%);
   color: white;
@@ -79,7 +121,7 @@
 .step3{
   position: absolute;
   top: 39%;
-  left: 32%;
+  left: 33%;
   transform: translate(-50%, -50%);
   color: white;
 }
@@ -87,25 +129,29 @@
 .step4{
   position: absolute;
   top: 56%;
-  left: 32%;
+  left: 33.5%;
   transform: translate(-50%, -50%);
   color: white;
 }
 
 .information{
-  position: absolute;
-  top: 20%;
+  margin-top: 50px;
 }
 
 .bouton{
   position: absolute;
-  top: 115%;
-  left: 83%;
+  top: 133%;
+  left: 88%;
+}
+
+.btn-custom {
+  background-color: #1e5286; 
+  color: #ffffff; 
 }
 
 .retour{
   position: absolute;
-  top: 115%;
+  top: 135%;
 }
 
 .my-div {
@@ -116,7 +162,7 @@
   margin-bottom: 20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
   height: 60px;
-  width: 580px;
+  width: 970px;
 }
 
 .my-div1 {
@@ -127,7 +173,7 @@
   margin-bottom: 20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
   height: 60px;
-  width: 580px;
+  width: 972px;
 }
 
 .form-check b{
@@ -143,6 +189,13 @@
 .form-check h6{
   position: absolute;
   margin-top: -22px;
-  margin-left: 465px;
+  margin-left: 865px;
 }
 
+.form-text{
+  margin-left: 15px;
+}
+
+.Personal{
+  margin-left: 15px;
+}
