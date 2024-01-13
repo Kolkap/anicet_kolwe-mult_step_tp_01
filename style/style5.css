@@ -1,18 +1,18 @@
-/* style.css */
-
 /* Conteneur parent pour l'image et le texte */
 .image-container {
-  position: relative;
-  display: inline-block; /* Permet de limiter la largeur au contenu */
-  top: 70px;
+  margin-top: 0px;
+  margin-right: 90px;
+  width: 90%;
 }
 
 /* Style de l'image */
 .image-container img {
-  width: 85%; /* Pour occuper la largeur du conteneur parent */
-  height: auto; /* Pour maintenir le ratio d'aspect de l'image */
-  display: block; /* Pour résoudre le problème de l'espace réservé sous l'image */
-}
+    margin-top: 0px;
+    width: 100%; /* Pour occuper la largeur de la div parente */
+    height: 100%; /* Pour occuper la hauteur de la div parente */
+    object-fit: cover; /* Pour maintenir le ratio d'aspect de l'image et la faire occuper toute la div */
+    display: block; /* Pour résoudre le problème de l'espace réservé sous l'image */
+  }
 
 .badge-step1 {
   background-color: transparent;
@@ -21,7 +21,11 @@
   border-radius: 50%;
   padding: 0.5em;
   font-size: 1em;
+  width: 35px;
+  height: 35px;
+  margin-top: 50px; /* Ajustez cette valeur selon vos besoins */
 }
+
 
 .badge-step2 {
   background-color: transparent;
@@ -30,6 +34,9 @@
   border-radius: 50%;
   padding: 0.5em;
   font-size: 1em;
+  width: 35px; 
+  height: 35px;
+  margin-top: 40px;
 }
 
 .badge-step3 {
@@ -39,39 +46,108 @@
   border-radius: 50%;
   padding: 0.5em;
   font-size: 1em;
+  width: 35px; 
+  height: 35px;
+  margin-top: 40px;
 }
 
 .badge-step4 {
-  background-color: rgb(200, 238, 195);
+  background-color: hsl(206, 94%, 87%);
   color: rgb(26, 24, 24);
   border: 1px solid white;
   border-radius: 50%;
   padding: 0.5em;
   font-size: 1em;
+  width: 35px; 
+  height: 35px;
+  margin-top: 40px;
 }
 
-/* Style du texte d'étape */
-.overlay-text h6 {
+.niv1{
+  position: absolute;
+  top: 12.5%;
+  left: 46.5%;
+  transform: translate(-50%, -50%);
+  color: white; 
   font-size: 16px;
-  margin-left: 35px;
+  font-family: 'Anton', sans-serif;
+  font-family: 'DM Serif Display', serif;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.niv2{
+  position: absolute;
+  top: 26.5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white; 
+  font-size: 16px;
+  font-family: 'Anton', sans-serif;
+  font-family: 'DM Serif Display', serif;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.niv3{
+  position: absolute;
+  top: 42.5%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+  color: white; 
+  font-size: 16px;
+  font-family: 'Anton', sans-serif;
+  font-family: 'DM Serif Display', serif;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.niv4{
+  position: absolute;
+  top: 60%;
+  left: 45.9%;
+  transform: translate(-50%, -50%);
+  color: white; 
+  font-size: 16px;
+  font-family: 'Anton', sans-serif;
+  font-family: 'DM Serif Display', serif;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 .ml-2{
-  color: #555;
+  color: #b9b9c0;;
+}
+
+.form-text{
+  color: #b9b9c0;
+  font-size: 16px;
+  font-family: 'Anton', sans-serif;
+  font-family: 'DM Serif Display', serif;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.Personal{
+  font-size: 16px;
+  font-family: 'Anton', sans-serif;
+  font-family: 'DM Serif Display', serif;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.expli{
+  margin-left: 8px;
+  font-family: 'Anton', sans-serif;
+  font-family: 'DM Serif Display', serif;
 }
 
 .step1{
   position: absolute;
-  top: 10%;
-  left: 35%;
+  top: 8%;
+  left: 25%;
   transform: translate(-50%, -50%);
   color: white;
 }
 
 .step2{
   position: absolute;
-  top: 25%;
-  left: 38%;
+  top: 23%;
+  left: 25%;
   transform: translate(-50%, -50%);
   color: white;
 }
@@ -79,7 +155,7 @@
 .step3{
   position: absolute;
   top: 39%;
-  left: 32%;
+  left: 25%;
   transform: translate(-50%, -50%);
   color: white;
 }
@@ -87,42 +163,108 @@
 .step4{
   position: absolute;
   top: 56%;
-  left: 32%;
+  left: 25%;
   transform: translate(-50%, -50%);
   color: white;
 }
 
+
 .information{
-  position: absolute;
-  top: 20%;
+  margin-top: 50px;
 }
 
 .bouton{
   position: absolute;
-  top: 115%;
-  left: 80%;
+  top: 133%;
+  left: 88%;
+}
+
+.btn-custom {
+  background-color: #1e5286; 
+  color: #ffffff; 
 }
 
 .retour{
   position: absolute;
-  top: 115%;
+  top: 135%;
 }
 
 .table {
-  background-color: #f6faf4; /* Couleur de fond du tableau */
-  border-radius: 10px; /* Coins arrondis du tableau */
-  margin-top: 20px;
+  border: none;
+  border-radius: 100px; /* Ajoute une bordure circulaire */
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
 }
+
+/* Style pour les cellules du tableau */
+.table th {
+  border: none;
+  padding: 10px;
+  text-align: left;
+}
+
+.table td {
+  border: none;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Style pour les boutons du tableau */
+.table button {
+  color: blue;
+  text-decoration: underline;
+  padding: 0;
+  margin: 0;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+/* Style pour les cellules de la première colonne du tableau */
+.table th {
+  background-color: hsl(206, 50%, 94%);
+}
+
+/* Style pour les cellules avec des lignes impaires */
+.table tbody tr:nth-child(odd) td {
+  background-color: hsl(206, 50%, 94%);
+}
+
+
+
+
 
 th, td {
   border: none; /* Supprime les bordures des cellules */
 }
 
-.tab{
-  background-color: transparent; 
-  border-radius: 10px; 
-  width: 500px;
-  height: 50px;
-  margin-left: 33px;
+/* style.css */
+
+/* Style pour la classe de tableau */
+.tab {
+  width: 100%; /* Largeur du tableau (ajustez selon vos besoins) */
+  border-collapse: collapse;
+  margin-bottom: 20px; /* Marge en bas du tableau (ajustez selon vos besoins) */
+}
+
+/* Style pour les cellules du tableau */
+.tab td {
+  border: none;
+  padding: 10px; /* Espacement à l'intérieur des cellules */
+  text-align: left; /* Alignement du texte à gauche dans les cellules */
+}
+
+
+/* Style pour la dernière colonne du tableau */
+.tab td:last-child {
+  text-align: center; /* Alignement du texte à droite dans la dernière colonne */
+  
+}
+
+/* Style pour le texte avec la couleur bleue */
+.tab h4 {
+  color: blue;
+  margin: 0; /* Supprime la marge par défaut du h4 */
 }
 

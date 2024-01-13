@@ -13,6 +13,12 @@
     <link rel="stylesheet" href="style/style4.css">
     <script src="scripts/script4.js" defer></script>
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=DM+Serif+Display&display=swap" rel="stylesheet">
+
+
+
 </head>
 <body>
     <!-- HEADER -->
@@ -23,37 +29,46 @@
     <!-- MAIN -->
     <main>
 
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
+        <div class="container-fluid h-100">
+            <div class="row h-100">
+                <div class="col-md-3 h-100">
                     <div class="image-container">
-                        <img src="assets/images/bg-sidebar-desktop.svg" class="img-thumbnail border-0" alt="Responsive image">
+                        <img src="assets/images/bg-sidebar-desktop.svg" class="img-thumbnail border-0 img-fluid" alt="Responsive image" >
                         <div class="overlay-text">
                             <div class="step1">
-                                <span class="badge badge-secondary p-2 rounded-circle badge-step1">1</span>
-                                <span class="ml-2">STEP 1</span>
-                                <h6><b>YOUR INFO</b></h6>
+                                <span class="badge badge-secondary p-2 rounded-circle d-inline-block badge-step1">1</span>             
+                            </div>
+                            <div class="niv1">
+                                <span class="ml-2">STEP 1</span><br>
+                                <span class="expli"><b>YOUR INFO</b></span>
                             </div>
                             <div class="step2">
-                                <span class="badge badge-secondary p-2 rounded-circle badge-step2">2</span>
-                                <span class="ml-2">STEP 2</span>
-                                <h6><b>SELECT PLAN</b></h6>
+                                <span class="badge badge-secondary p-2 rounded-circle d-inline-block badge-step2">2</span>
+                            </div>
+                            <div class="niv2">
+                                <span class="ml-2">STEP 2</span><br>
+                                <span class="expli"><b>SELECT PLAN</b></span>
                             </div>
                             <div class="step3">
-                                <span class="badge badge-secondary p-2 rounded-circle badge-step3">3</span>
-                                <span class="ml-2">STEP 3</span>
-                                <h6><b>ADD-ONS</b></h6>
+                                <span class="badge badge-secondary p-2 rounded-circle d-inline-block badge-step3">3</span>
+                            </div>
+                            <div class="niv3">
+                                <span class="ml-2">STEP 3</span><br>
+                                <span class="expli"><b>ADD-ONS</b></span>
                             </div>
                             <div class="step4">
-                                <span class="badge badge-secondary p-2 rounded-circle badge-step4">4</span>
-                                <span class="ml-2">STEP 4</span>
-                                <h6><b>SUMMary</b></h6>
+                                <span class="badge badge-secondary p-2 rounded-circle d-inline-block badge-step4">4</span>
+                            </div>
+                            <div class="niv4">
+                                <span class="ml-2">STEP 4</span><br>
+                                <span class="expli"><b>SUMMARY</b></span>
                             </div>
                         </div>
                     </div>
                 </div>
+        
                 
-                <div class="col-md-8">
+                <div class="col-md-9 h-100">
                     <div class="information">
                         <div class="Personal"><h1>Finishing up</h1></div>
                         <div id="passwordHelpBlock" class="form-text">
@@ -63,12 +78,12 @@
                             <tbody>
                               <tr>
                                 <th scope="col">Arcade (Monthly)<br> <button type="button" class="btn btn-link ">Change</button></th>
-                                <th scope="col">$9/mo</th>
+                                <td scope="col">$9/mo</td>
                               </tr>
                             </tbody>
                             <tbody>
                               <tr>
-                                <td scope="row">Online service<br>Larger storage</td>
+                                <th scope="row">Online service<br>Larger storage</th>
                                 <td>+$1/mo<br>+$2/mo</td>
                               </tr>
                             </tbody>
@@ -76,7 +91,7 @@
                         <table class="tab">
                             <tbody>
                                 <tr>
-                                <td scope="col">total (per month) </td>
+                                <td scope="col" >total (per month) </td>
                                 <td><h4 style="color: blue;">+$12/mo</h4></td>
                                 </tr>
                             </tbody>
@@ -84,7 +99,7 @@
 
                         <form info>
                             <div class="bouton">
-                                <button type="button" class="btn btn-primary" onclick="redirectToNextStep()">Confirm</button>
+                                <button type="button" class="btn btn-custom" onclick="redirectToNextStep()">Confirm</button>
                             </div>
                             <div class="retour">
                                 <button type="button" class="btn btn-link text-dark" onclick="redirectToNextStep2()">Go Back</button>

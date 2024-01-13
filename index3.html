@@ -13,6 +13,12 @@
     <link rel="stylesheet" href="style/style3.css">
     <script src="scripts/script3.js" defer></script>
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=DM+Serif+Display&display=swap" rel="stylesheet">
+
+
+
 </head>
 <body>
     <!-- HEADER -->
@@ -31,28 +37,37 @@
                         <img src="assets/images/bg-sidebar-desktop.svg" class="img-thumbnail border-0 img-fluid" alt="Responsive image" >
                         <div class="overlay-text">
                             <div class="step1">
-                                <span class="badge badge-secondary p-2 rounded-circle d-inline-block badge-step1">1</span>
+                                <span class="badge badge-secondary p-2 rounded-circle d-inline-block badge-step1">1</span>             
+                            </div>
+                            <div class="niv1">
                                 <span class="ml-2">STEP 1</span><br>
                                 <span class="expli"><b>YOUR INFO</b></span>
                             </div>
                             <div class="step2">
                                 <span class="badge badge-secondary p-2 rounded-circle d-inline-block badge-step2">2</span>
+                            </div>
+                            <div class="niv2">
                                 <span class="ml-2">STEP 2</span><br>
                                 <span class="expli"><b>SELECT PLAN</b></span>
                             </div>
                             <div class="step3">
                                 <span class="badge badge-secondary p-2 rounded-circle d-inline-block badge-step3">3</span>
+                            </div>
+                            <div class="niv3">
                                 <span class="ml-2">STEP 3</span><br>
                                 <span class="expli"><b>ADD-ONS</b></span>
                             </div>
                             <div class="step4">
                                 <span class="badge badge-secondary p-2 rounded-circle d-inline-block badge-step4">4</span>
+                            </div>
+                            <div class="niv4">
                                 <span class="ml-2">STEP 4</span><br>
                                 <span class="expli"><b>SUMMARY</b></span>
                             </div>
                         </div>
                     </div>
                 </div>
+        
 
                 
                 <div class="col-md-9 h-100">
@@ -110,7 +125,7 @@
                           
                         <form info>
                             <div class="bouton">
-                                <button type="button" class="btn btn-primary" onclick="redirectToNextStep()">Next Step</button>
+                                <button type="button" class="btn btn-custom" onclick="redirectToNextStep()">Next Step</button>
                             </div>
                             <div class="retour">
                                 <button type="button" class="btn btn-link text-dark" onclick="redirectToNextStep2()"><b>Go Back</b></button>

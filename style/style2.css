@@ -1,29 +1,3 @@
-
-@font-face {
-  font-family: 'ubuntubold';
-  src: url('assets/fonts/webfontkit/ubuntu-bold-webfont.woff2') format('woff2'),
-       url('assets/fonts/webfontkit/ubuntu-bold-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'ubunturegular';
-  src: url('assets/fonts/webfontkit/ubuntu-regular-webfont.woff2') format('woff2'),
-       url('assets/fonts/webfontkit/ubuntu-regular-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'ubuntumedium';
-  src: url('assets/fonts/webfontkit/ubuntu-medium-webfont.woff2') format('woff2'),
-       url('assets/fonts/webfontkit/ubuntu-medium-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
-
-
 /* Conteneur parent pour l'image et le texte */
 .image-container {
   margin-top: 0px;
@@ -47,13 +21,14 @@
   border-radius: 50%;
   padding: 0.5em;
   font-size: 1em;
-  width: 35px; 
+  width: 35px;
   height: 35px;
-  margin-top: 40px;
+  margin-top: 50px; /* Ajustez cette valeur selon vos besoins */
 }
 
+
 .badge-step2 {
-  background-color: rgb(200, 238, 195);
+  background-color: hsl(206, 94%, 87%);
   color: rgb(26, 24, 24);
   border: 1px solid white;
   border-radius: 50%;
@@ -88,24 +63,83 @@
   margin-top: 40px;
 }
 
+.niv1{
+  position: absolute;
+  top: 12.5%;
+  left: 46.5%;
+  transform: translate(-50%, -50%);
+  color: white; 
+  font-size: 16px;
+  font-family: 'Anton', sans-serif;
+  font-family: 'DM Serif Display', serif;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.niv2{
+  position: absolute;
+  top: 26.5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white; 
+  font-size: 16px;
+  font-family: 'Anton', sans-serif;
+  font-family: 'DM Serif Display', serif;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.niv3{
+  position: absolute;
+  top: 42.5%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+  color: white; 
+  font-size: 16px;
+  font-family: 'Anton', sans-serif;
+  font-family: 'DM Serif Display', serif;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.niv4{
+  position: absolute;
+  top: 60%;
+  left: 45.9%;
+  transform: translate(-50%, -50%);
+  color: white; 
+  font-size: 16px;
+  font-family: 'Anton', sans-serif;
+  font-family: 'DM Serif Display', serif;
+  font-family: 'Ubuntu', sans-serif;
+}
+
 .ml-2{
-  color: #3d3d41;
-  font-family: 'ubunturegular';
+  color: #b9b9c0;;
+}
+
+.form-text{
+  color: #b9b9c0;
+  font-size: 16px;
+  font-family: 'Anton', sans-serif;
+  font-family: 'DM Serif Display', serif;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 .Personal{
-  font-family: 'ubuntubold';
+  font-size: 16px;
+  font-family: 'Anton', sans-serif;
+  font-family: 'DM Serif Display', serif;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 .expli{
-  margin-left: 48px;
-  font-family: 'ubuntumedium';
+  margin-left: 8px;
+  font-family: 'Anton', sans-serif;
+  font-family: 'DM Serif Display', serif;
 }
 
 .step1{
   position: absolute;
   top: 8%;
-  left: 35%;
+  left: 25%;
   transform: translate(-50%, -50%);
   color: white;
 }
@@ -113,7 +147,7 @@
 .step2{
   position: absolute;
   top: 23%;
-  left: 38%;
+  left: 25%;
   transform: translate(-50%, -50%);
   color: white;
 }
@@ -121,7 +155,7 @@
 .step3{
   position: absolute;
   top: 39%;
-  left: 33%;
+  left: 25%;
   transform: translate(-50%, -50%);
   color: white;
 }
@@ -129,7 +163,7 @@
 .step4{
   position: absolute;
   top: 56%;
-  left: 33.5%;
+  left: 25%;
   transform: translate(-50%, -50%);
   color: white;
 }
@@ -145,7 +179,7 @@
 }
 
 .btn-custom {
-  background-color: #1e5286; 
+  background-color: hsl(213, 96%, 18%); 
   color: #ffffff; 
 }
 

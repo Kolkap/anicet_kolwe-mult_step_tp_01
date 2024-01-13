@@ -1,7 +1,7 @@
 
 function redirectToNextStep2() {
     // Effectuer la redirection vers index4.html
-    window.location.href = 'index4.html';
+    window.location.href = 'index3.html';
 }
 
 function redirectToNextStep() {
