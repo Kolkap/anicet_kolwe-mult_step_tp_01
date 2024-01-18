@@ -32,10 +32,10 @@
         
         <div class="container-fluid h-100">
             <div class="row h-100">
-                <div class="col-md-3 h-100">
+                <div class="col-lg-3 order-2 order-lg-1 h-100">
                     <div class="image-container">
-                        <img src="assets/images/bg-sidebar-desktop.svg" class="img-thumbnail border-0 img-fluid" alt="Responsive image" >
-                        <div class="overlay-text">
+                        <img src="assets/images/bg-sidebar-desktop.svg" class="d-none d-lg-block img-thumbnail border-0 img-fluid" alt="Responsive image">
+                        <div class="overlay-text d-none d-lg-block">
                             <div class="step1">
                                 <span class="badge badge-secondary p-2 rounded-circle d-inline-block badge-step1">1</span>             
                             </div>
@@ -70,8 +70,8 @@
         
 
                 
-                <div class="col-md-9 h-100">
-                    <div class="information">
+                <div class="col-lg-9 order-1 order-lg-2 h-100">
+                    <div class="information d-none d-lg-block">
                         <div class="Personal"><h1>Pick add-ons</h1></div>
                         <div id="passwordHelpBlock" class="form-text">
                             Add-ons help enhance your gaming experience 
@@ -136,6 +136,95 @@
             </div>
         </div>
 
+
+
+
+
+        <div class="col-xs-12 order-1 order-xs-2 h-100">
+            <div class="mobile-circles d-lg-none">
+                <div class="step11">
+                    <span class="badge badge-secondary p-2 rounded-circle d-inline-block badge-step11">1</span>             
+                </div>
+                <div class="step22">
+                    <span class="badge badge-secondary p-2 rounded-circle d-inline-block badge-step22">2</span>             
+                </div>
+                <div class="step33">
+                    <span class="badge badge-secondary p-2 rounded-circle d-inline-block badge-step33">3</span>             
+                </div>
+                <div class="step44">
+                    <span class="badge badge-secondary p-2 rounded-circle d-inline-block badge-step44">4</span>             
+                </div>
+            </div>
+            <!-- Image pour les écrans mobiles (375px et moins) -->
+            <img src="assets/images/bg-sidebar-mobile.svg" class="d-lg-none img-thumbnail border-0 img-fluid w-100"  alt="Responsive image">
+            <!-- Contenu du formulaire pour les écrans mobiles -->
+            <div class="information1 d-lg-none">
+                <div class="Personal1"><h1>Pick add-ons</h1>
+                <div id="passwordHelpBlock" class="form-text1">
+                    Add-ons help enhance your gaming experience 
+                </div><br>
+                <div class="container">
+                    <div class="row">
+                      <div class="col">
+                        <div class="my-diva">
+                            <div class="form-check1">
+                                <input class="form-check-input1" type="checkbox" value="" id="flexCheckChecked" checked>
+                                <label class="form-check-label" for="flexCheckChecked">
+                                  <b>Online service </b> 
+                                </label>
+                                    <p>Access to multiplayer games</p>
+                                    <h6>+$1/mo</h6>
+                              </div>
+                        </div>
+                      </div>
+                    </div>
+                  
+                    <div class="row">
+                      <div class="col">
+                        <div class="my-diva">
+                            <div class="form-check1">
+                                <input class="form-check-input1" type="checkbox" value="" id="flexCheckChecked" checked>
+                                <label class="form-check-label" for="flexCheckChecked">
+                                  <b>Larger storage </b> 
+                                </label>
+                                    <p>Extra 1TB of cloud save</p>
+                                    <h6>+$2/mo</h6>
+                              </div>
+                        </div>
+                      </div>
+                    </div>
+                  
+                    <div class="row">
+                      <div class="col">
+                        <div class="my-divb">
+                            <div class="form-check1">
+                                <input class="form-check-input2" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">
+                                    <b>Customizable profile</b>
+                                </label>
+                                    <p>custom theme on your profile</p>
+                                    <h6>+$3/mo</h6>
+                              </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                
+                
+
+                    <form info>
+                        <div class="boutonn d-lg-none">
+                            <button type="button" class="btn btn-custom" onclick="redirectToNextStep()">Next Step</button>
+                        </div>
+                        <div class="retourr d-lg-none">
+                            <button type="button" class="btn btn-link text-dark" onclick="redirectToNextStep2()"><b>Go Back</b></button>
+                        </div>
+                    </form>
+
+            </div>
+
+    </div>
+    
 
 
     </main>
