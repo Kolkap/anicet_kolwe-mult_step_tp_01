@@ -31,10 +31,10 @@
 
         <div class="container-fluid h-100">
             <div class="row h-100">
-                <div class="col-md-3 h-100">
+                <div class="col-lg-3 order-2 order-lg-1 h-100">
                     <div class="image-container">
-                        <img src="assets/images/bg-sidebar-desktop.svg" class="img-thumbnail border-0 img-fluid" alt="Responsive image" >
-                        <div class="overlay-text">
+                        <img src="assets/images/bg-sidebar-desktop.svg" class="d-none d-lg-block img-thumbnail border-0 img-fluid" alt="Responsive image">
+                        <div class="overlay-text d-none d-lg-block">
                             <div class="step1">
                                 <span class="badge badge-secondary p-2 rounded-circle d-inline-block badge-step1">1</span>             
                             </div>
@@ -68,8 +68,8 @@
                 </div>
         
 
-                <div class="col-md-9 h-100">
-                <div class="imageval">
+                <div class="col-lg-9 order-1 order-lg-2 h-100">
+                <div class="imageval d-none d-lg-block">
                     <img src="assets/images/icon-thank-you.svg" alt="Bootstrap" width="100" height="100">
                     <h1><b>Thank you!</b></h1>
                     <p class="para"> Thanks for confirming your subscription! We hope you have<br> fun 
@@ -80,6 +80,37 @@
             </div>
             </div>
         </div>
+
+
+
+
+        <div class="col-xs-12 order-1 order-xs-2 h-100">
+            <div class="mobile-circles d-lg-none">
+                <div class="step11">
+                    <span class="badge badge-secondary p-2 rounded-circle d-inline-block badge-step11">1</span>             
+                </div>
+                <div class="step22">
+                    <span class="badge badge-secondary p-2 rounded-circle d-inline-block badge-step22">2</span>             
+                </div>
+                <div class="step33">
+                    <span class="badge badge-secondary p-2 rounded-circle d-inline-block badge-step33">3</span>             
+                </div>
+                <div class="step44">
+                    <span class="badge badge-secondary p-2 rounded-circle d-inline-block badge-step44">4</span>             
+                </div>
+            </div>
+            <!-- Image pour les écrans mobiles (375px et moins) -->
+            <img src="assets/images/bg-sidebar-mobile.svg" class="d-lg-none img-thumbnail border-0 img-fluid w-100"  alt="Responsive image">
+            <!-- Contenu du formulaire pour les écrans mobiles -->
+            <div class="information1 d-lg-none">
+                    <img src="assets/images/icon-thank-you.svg" alt="Bootstrap" width="60" height="60">
+                    <h3><b>Thank you!</b></h3>
+                    <p class="para"> Thanks for confirming your subscription! <br> We hope you have fun 
+                        using our <br>platform. If you ever need support, <br>please feel free 
+                        to email us at<br> support@loremgaming.com.</p>
+
+            </div>
+    </div>
 
 
 
